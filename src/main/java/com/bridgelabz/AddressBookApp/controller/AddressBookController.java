@@ -28,7 +28,7 @@ public class AddressBookController {
     }
 
     @GetMapping("/GetAll")
-    public List<Contacts> getAllContacts(){
+    public List<Contacts> getAllContacts() {
         return iAddressBook.getAllContact();
     }
 
